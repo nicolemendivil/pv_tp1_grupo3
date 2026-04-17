@@ -4,5 +4,9 @@ Trabajo Practico Nº1
 Grupo 3
 Integrantes: 
 Apellido y Nombre. Usuario de Github.
-Mendivil Cabrera, Nicole. nicolemendivil
-Chavez Debora Gissel;debo_gissel
+-Chavez, Debora Gissel. debo_gissel
+-Choque, Alejandra. alejandrachoque
+-Mendivil Cabrera, Nicole. nicolemendivil
+-Montoya, Natalia. nmontoya1
+-Wayar, Abigail. abigailwayar
+
