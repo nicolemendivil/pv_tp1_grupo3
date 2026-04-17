@@ -5,3 +5,4 @@ Grupo 3
 Integrantes: 
 Apellido y Nombre. Usuario de Github.
 Mendivil Cabrera, Nicole. nicolemendivil
+Chavez Debora Gissel;debo_gissel
