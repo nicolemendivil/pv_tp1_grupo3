@@ -1,0 +1,24 @@
+:root {
+    --fuente-grupo: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --blanco: #ffffff;
+    --azul: #1987d4;
+    --celeste-fondo: #f4f8f6;
+    --texto-oscuro: #0e0f0f;
+}
+
+body { 
+    background-color: var(--celeste-fondo); 
+    margin: 0;
+    font-family: var(--fuente-grupo);
+    color: var(--texto-oscuro);
+}
+
+#main-title {
+    color: var(--blanco);               
+    text-align: center;       
+    font-size: 2.2rem;        
+    padding: 30px 10px;
+    text-transform: uppercase; 
+    background-color: rgb(10, 12, 131);
+    border-bottom: 5px solid #27d4ff; /* El toque de color que usa NEXOS */
+} 
