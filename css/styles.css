@@ -21,6 +21,7 @@ body {
     text-transform: uppercase; 
     background-color: rgb(10, 12, 131);
     border-bottom: 5px solid #27d4ff; /* El toque de color que usa NEXOS */
+    margin:0;
 } 
 
 #filter-p{
