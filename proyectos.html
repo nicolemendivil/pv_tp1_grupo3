@@ -4,55 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectos</title>
+    <link rel="stylesheet" href="css\styles.css">  
 </head>
 <body>
-    <h1>Proyectos</h1>
-     <nav>
-        <a href="index.html">Inicio</a> |
-        <a href="proyectos.html">Proyectos</a> |
-        <a href="detalle.html">Detalle</a> |
-        <a href="perfil.html">Perfil</a>
-    </nav>
-    <main>
-        <div class="filtros">
-        <label for="categoria">Categoría:</label>
-        <select id="categoria">
-            <option value="">Todas</option>
-            <option value="web">Desarrollo Web</option>
-            <option value="movil">Móvil</option>
-            <option value="data">Data Science</option>
-        </select>
+     <header>
+        <h1 id="main-title">Proyectos</h1>
+        <nav class="menu">
+            <a href="index.html">Inicio</a> |
+            <a href="proyectos.html">Proyectos</a> | 
+            <a href="detalle.html">Detalle</a> |
+            <a href="perfil.html">Perfil</a> 
+        </nav>
+      </header>  
+    <aside id="filter-p">
+        <h3 id="title-h2">Explorador de Proyectos: </h2>
+            <label for="categoria">Categoría:</label>
+            <select id="categoria">
+                <option value="">Todas</option>
+                <option value="tecnologías">Tecnología Educativa</option>
+                <option value="Educación">Educación Digital</option>
+                <option value="Pedagogía">Pedagogía</option>
+                <option value="Formación">Formación Académica</option>
+                <option value="Informática">Informática</option>
+            </select>
 
-        <label for="anio">Año:</label>
-        <select id="anio">
-            <option value="">Todos</option>
-            <option value="2026">2026</option>
-            <option value="2025">2025</option>
-            <option value="2024">2024</option>
-        </select>
+            <label for="anio">Año:</label>
+            <select id="anio">
+                <option value="">Todos</option>
+                <option value="2026">2026</option>
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+            </select>
 
-        <label for="estado">Estado:</label>
-        <select id="estado">
-            <option value="">Todos</option>
-            <option value="completo">Completado</option>
-            <option value="proceso">En Proceso</option>
-            <option value="pausa">En Pausa</option>
-        </select>
+            <label for="estado">Estado:</label>
+            <select id="estado">
+                <option value="">Todos</option>
+                <option value="completo">Completado</option>
+                <option value="proceso">En Proceso</option>
+                <option value="pausa">En Pausa</option>
+            </select>
+    </aside>
+    <main id="main-proyects">
+    <section>
+    <h2 id="title-h2">Listado de Proyectos</h2>
+    <div class="contenedor-proyectos">
+        <article class="proyecto">
+            <h3 class="card_title">Proyecto 1 <br>Impacto de la IA en la Educación</h3>
+            <img src="img/proyecto1.jpg" alt="Inteligencia Artificial" class="proyect-img">
+            <p class="card_content">Analiza cómo la inteligencia artificial transforma los procesos de enseñanza y aprendizaje.</p>
+            <p class="card_content"><strong>Categoría:</strong> Tecnología Educativa</p>
+            <a href="detalle.html">Ver detalle</a>
+        </article>
+        <article class="proyecto">
+            <h3 class="card_title">Proyecto 2 <br>Alfabetización Digital en los Institutos de Educación Superior</h3>
+            <img src="img/proyecto2.jpg" alt="Alfabetización Digital" class="proyect-img">
+            <p class="card_content">Estudia la importancia de las competencias digitales en estudiantes universitarios.</p>
+            <p class="card_content"><strong>Categoría:</strong> Educación Digital</p>
+            <a href="detalle.html">Ver detalle</a>
+        </article>
+        <article class="proyecto">
+            <h3 class="card_title">Proyecto 3 <br>Innovación Pedagógica: Aulas Invertidas</h3>
+            <img src="img/proyecto3.jpg" alt="Aulas Invertidas" class="proyect-img">
+            <p class="card_content">Explora el modelo de aula invertida y su impacto en el aprendizaje activo.</p>
+            <p class="card_content"><strong>Categoría:</strong> Pedagogía</p>
+            <a href="detalle.html">Ver detalle</a>
+        </article>
+        <article class="proyecto">
+            <h3 class="card_title">Proyecto 4 <br>Estrategias de estudio en la Educación Superior</h3>
+            <img src="img/proyecto4.jpg" alt="Estrategias de estudio" class="proyect-img">
+            <p class="card_content">Presenta técnicas de organización y estudio para mejorar el rendimiento académico.</p>
+            <p class="card_content"><strong>Categoría:</strong> Formación Académica</p>
+            <a href="detalle.html">Ver detalle</a>
+        </article>
+        <article class="proyecto">
+            <h3 class="card_title">Proyecto 5 <br>Ciberseguridad y Protección de Datos en la Universidad</h3>
+            <img src="img/proyecto5.jpg" alt="Ciberseguridad" class="proyect-img">
+            <p class="card_content">Analiza riesgos digitales y medidas para proteger la información universitaria.</p>
+            <p class="card_content"><strong>Categoría:</strong> Informática</p>
+            <a href="detalle.html">Ver detalle</a>
+        </article>
     </div>
-
-    <hr>
-
-    <div class="lista-proyectos">
-        <h3>Proyecto Ejemplo 1</h3>
-        <p>Categoría: Web | Año: 2026 | Estado: En Proceso</p>
-        
-        <h3>Proyecto Ejemplo 2</h3>
-        <p>Categoría: Móvil | Año: 2025 | Estado: Completado</p>
-    </div>
-        
+    </section>
     </main>
     <footer>
-        <h6>Programación Visual 2026</h6>
+        <p>Programación Visual 2026</p>
     </footer>
 </body>
 </html>
